@@ -1,0 +1,307 @@
+{
+  "params": {
+    "title": "Resume - Gurpreet Kochar",
+    "tw_url": "https://twitter.com/kochargurpreet",
+    "fb_url": "https://www.facebook.com/profile.php?id=100001070246379",
+    "in_url": "https://www.linkedin.com/in/gurpreet-kochar-90818538/",
+    "gh_url": "https://github.com/kochargs/",
+    "wa_url": "https://api.whatsapp.com/send?phone=919899643627&text=",
+    "about_head": "Analytical IT Professional with 11 Years of experience who applies network design, administration, scripting and automation knowledge to support business and increase overall efficiency and productivity. While not working on network design and automation related projects, i am enjoying MMORPG video games.",
+    "about_foot": [
+      "Visionary with strong abilities in liasoning with other functional heads for technology development to improve and execute plan, consistently tracking development against plan and seeking strategies to increase efficiencies.",
+      "Experienced in managing and delivering projects, conducting business analysis to determine requirements and planning for network implementation at enterprise scale.",
+      "Good communication skills and the ability to collaborate and partner with clients."
+    ],
+    "details": [
+      {
+        "Birthday": "20 July 1987",
+        "Website": "www.example.com",
+        "Phone": "+91 9899643627",
+        "City": "New Delhi, INDIA"
+      },
+      {
+        "Age": "33",
+        "Degree": "B.Tech E.C.E & CCIE RnS 29726",
+        "Email": "kochar.gurpreet@gmail.com",
+        "Freelance": "Available"
+      }
+    ],
+    "facts": {
+      "Happy Network Design Clients": ["6", "icofont-simple-smile"],
+      "Happy Network Automation Clients": ["2", "icofont-simple-smile"],
+      "Network Automation Projects": ["65", "icofont-automation"],
+      "Internal Process Automations" : ["5", "icofont-connection"],
+      "Web Automation Project" : ["5", "icofont-web"],
+      "Approx Lines of Code": ["15000", "icofont-code"]
+    },
+    "skills": [
+      {
+        "PYTHON": "80",
+        "NETWORK SCRIPTING": "90",
+        "NETWORK AUTOMATION - NETMIKO, NORNIR, NAPALM, ANSIBLE, SCRAPLI, PYATS, GENIE, NTC": "75",
+        "YANG NETCONF RESTCONF": "40",
+        "WEB DEVELOPMENT - HTML CSS BOOTSTRAP FLASK DJANGO": "50",
+        "WEB AUTOMATION - SELENIUM BEAUTIFULSOUP4 REQUESTS": "40",
+        "SHAREPOINT DESIGN AND DEVELOPMENT": "50"
+      },
+      {
+        "NETWORK DESIGN & IMPLEMENTATION LAN/WAN": "75",
+        "LAN / DATA CENTER SWITCHING / ROUTING / CONTENT NETWORKING": "75",
+        "ADVANCED TROUBLESHOOTING SKILLS": "80",
+        "DATA ANALYSIS & VISUALIZATION - PYTHON PANDAS & TABLEAU": "50",
+        "UNDERSTANDING OF AGILE DEVELOPMENT PROCESS": "50",
+        "DEVOPS & CI/CD TOOLS SUCH AS GIT, ANSIBLE, DOCKER, JENKINS": "50",
+        "CLOUD TECHNOLOGIES LIKE AWS GCP AZURE" : "35"
+      }
+    ],
+    "project_details": {
+      "ios_compliance": {
+        "filter": "filter-dash",
+        "category": "Dashboard & Viz",
+        "tech": "Netmiko, Pandas, RESTAPI, Tableau, MS-EXCEL",
+        "img_count": 4,
+        "code_lines": 400,
+        "description": "This script scans the current running versions in the network and compares them against a predefined standard IOS version and highlights the risk if an upgrade is required or not based on N-1 and N-2 terminology."
+      },
+
+      "autofailover": {
+        "filter": "filter-dash",
+        "category": "Dashboard & Viz",
+        "tech": "Netmiko, Openpyxl, Pandas, MS-EXCEL",
+        "img_count": 3,
+        "code_lines": 6000,
+        "description": "This script proactively determines if in event of failure of primary MPLS link, will the backup link be able to carry the traffic realiably or not and also highlight issues that potentially can interfere in the failover so that issues can be remediated before anysuch event even happens."
+      },
+
+      "vulnerability_assessment": {
+        "filter": "filter-dash",
+        "category": "Dashboard & Viz",
+        "tech": "Netmiko, Pandas, RESTAPI, Tableau, MS-EXCEL",
+        "img_count": 2,
+        "code_lines": 500,
+        "description": "This script finds all the unique IOS versions running currently in the network and queries those IOS versions from Cisco Database for vulnerabilities and prepares a dashboard report as shows on left."
+      },
+
+      "configuration_compliance": {
+        "filter": "filter-dash",
+        "category": "Dashboard & Viz",
+        "tech": "Pyats, Genie, Pandas, MS-EXCEL",
+        "img_count": 3,
+        "code_lines": 1000,
+        "description": "Compares the current device configuration of thousands of devices with the GOLD Template configuration for multiple variations and prepares a dashboard highlighting the descrepancies"
+      },
+
+      "audit_genie": {
+        "filter": "filter-dash",
+        "category": "Dashboard & Viz",
+        "tech": "Netmiko, HTML, CSS, Flask, Pandas, MS-EXCEL",
+        "img_count": 3,
+        "code_lines": 2000,
+        "description": "A Web dashboard that provides 1 click access to all python scripts for easy use by non programmers. A self explantory tool providing auditing and parsing functionality to Network Engineers."
+      },
+
+      "bgp_summary": {
+        "filter": "filter-dash",
+        "category": "Dashboard & Viz",
+        "tech": "Netmiko, Pandas, MS-EXCEL",
+        "img_count": 3,
+        "code_lines": 450,
+        "description": "This script parses show ip bgp summary output from all routers in the network and prepare a dashboard with BGP neighbor details."
+      },
+
+      "cppm": {
+        "filter": "filter-dash",
+        "category": "Dashboard & Viz",
+        "tech": "Netmiko, Pandas, RESTAPI, Tableau, MS-EXCEL",
+        "img_count": 1,
+        "code_lines": 200,
+        "description": "This script prepares a health monitoring dashboard for Aruba Clear Pass Policy Manager devices with realtime data from devices."
+      },
+
+      "acl_audit": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 2,
+        "code_lines": 400,
+        "description": "This script helps find out if a set of access-list lines exist in the running configuration of devices or not."
+      },
+
+      "eos_eol": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL, RESTAPI",
+        "img_count": 2,
+        "code_lines": 650,
+        "description": "This script finds out if the device hardware is EOS / EOL along with the data of annoucements and the suggested upgrade hardwares."
+      },
+
+      "O365": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 1,
+        "code_lines": 400,
+        "description": "This script audits the existing access-list configuration in all devices to check if ACLs for O365 are configured properly or not."
+      },
+
+      "cradlepoint": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 3,
+        "code_lines": 450,
+        "description": "This script helps find out which LTE Modem is connected to which router and the corresponding interfaces of the connection between the router and the LTE modem."
+      },
+
+      "interface_details": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 1,
+        "code_lines": 400,
+        "description": "This script fetches a details of all interfaces on all devices in a tabular format for easy viewing and analysis"
+      },
+
+      "ip_helper": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 1,
+        "code_lines": 400,
+        "description": "This script finds out which interfaces have ip helper address configured on them across all devices and dumps the info into a formatted excel sheet."
+      },
+
+      "l2_vlans": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 1,
+        "code_lines": 400,
+        "description": "This script fetches all the Vlans configured on the device with VlanID to Vlan description/name mapping into an excel sheet."
+      },
+
+      "network_device_detail": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 3,
+        "code_lines": 600,
+        "description": "This script fetches a lot of generic details about all devices in inventory like Model, Serial Number, Version, Stack Details, Supervisor Details, Uptime Information, Total interfaces up down admin down, Number of Interface with IP Address, Number of CDP neighbors, Number of BGP neighbors."
+      },
+
+      "qos_parser": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 2,
+        "code_lines": 250,
+        "description": "This script converts the output of qos commands into excel sheet."
+      },
+
+      "radius_tacacs": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 2,
+        "code_lines": 400,
+        "description": "This script audits the device config for configured radius and tacacs servers and prints them into excel sheet in order in which they are found to be configured on the device for audit and analysis purposes."
+      },
+
+      "snmp": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 1,
+        "code_lines": 400,
+        "description": "This script fetches the information about configured SNMP servers and the SNMP location of devices."
+      },
+
+      "syslog": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 2,
+        "code_lines": 400,
+        "description": "This script fetches all the configured syslog servers into an excel sheet."
+      },
+
+      "swg": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 1,
+        "code_lines": 400,
+        "description": "This script fetches the tunnel information for all the Secure Web Gateways on all routers in network."
+      },
+
+      "wlc_details": {
+        "filter": "filter-audit",
+        "category": "Audit & Analysis",
+        "tech": "Pandas, MS-EXCEL",
+        "img_count": 4,
+        "code_lines": 550,
+        "description": "This script fetches a lot of generic details about all WLCs in inventory like Model, Serial Number, Version, IP Address, Radio Status, Number of WLANs, Active Clients, SSIDs, Radius and Tacacs Servers, All connected APs and their corresponding details, Switchport to which the APs are connected."
+      },
+
+      "device_data_collector": {
+        "filter": "filter-config",
+        "category": "Config Management",
+        "tech": "Netmiko, Scrapli, Nornir, Napalm, Ansible, Pandas",
+        "img_count": 2,
+        "code_lines": 800,
+        "description": "This script logs into the devices of differnt makes and models and gathers the output of show commands into a text file for each device. The script can fetch device data at the rate of nearly 200 devices per minute depending upon the hardware of hosting platform."
+      },
+
+      "inventory_cleaner": {
+        "filter": "filter-config",
+        "category": "Config Management",
+        "tech": "Netmiko, Scrapli, Nornir, Napalm, Ansible, Pandas",
+        "img_count": 1,
+        "code_lines": 300,
+        "description": "This script verifies the inventory with the live environment and highlights the differences observed so that actions can be taken to correct the gaps."
+      },
+
+      "config_push": {
+        "filter": "filter-config",
+        "category": "Config Management",
+        "tech": "Netmiko, Scrapli, Nornir, Napalm, Ansible, Pandas",
+        "img_count": 2,
+        "code_lines": 300,
+        "description": "This script allows to push config to multiple devices all at once with inbuilt pre and post verification logging as required on the kind of implementation."
+      }
+    },
+    "testimonials": [
+      {
+        "name": "",
+        "designation": "",
+        "img": "",
+        "message": ""
+      },
+      {
+        "name": "",
+        "designation": "",
+        "img": "",
+        "message": ""
+      },
+      {
+        "name": "",
+        "designation": "",
+        "img": "",
+        "message": ""
+      },
+      {
+        "name": "",
+        "designation": "",
+        "img": "",
+        "message": ""
+      },
+      {
+        "name": "",
+        "designation": "",
+        "img": "",
+        "message": ""
+      }
+    ]
+  }
+}
